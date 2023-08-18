@@ -1,0 +1,68 @@
+/* App.css */
+body {
+  background-color: #f8f9fa;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin-top: -20px;
+}
+
+.card {
+  align-items: center;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.typeahead .rbt-input-main {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.success-message {
+  color: #28a745;
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 80%;
+  }
+}
