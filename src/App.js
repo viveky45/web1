@@ -26,7 +26,7 @@ const App = () => {
     }
   
     try {
-      const response = await axios.post(`${serverUrl}/allot-project`, {
+      const response = await axios.post(`https://localhost:30001/allot-project`, {
         projectName,
         specialization,
       });

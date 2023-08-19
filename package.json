@@ -1,4 +1,4 @@
-{
+{"homepage": "https://viveky45.github.io/web1",
   "name": "email-sender-app",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +17,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://viveky45.github.io/web1",
+  
   "scripts": {
     "start": "node server.js",
     "both": "concurrently \"npm run start:react\" \"npm run start:server\"",
