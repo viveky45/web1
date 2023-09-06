@@ -38,7 +38,7 @@ app.post('/allot-project', async (req, res) => {
       service: 'gmail',
       auth: {
         user: 'vivekupwork45@gmail.com',
-        pass: 'kimzxlzxtliwvppt',
+        pass: 'szjiojjixtsepfpm',
       },
     });
 

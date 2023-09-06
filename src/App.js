@@ -16,7 +16,6 @@ const App = () => {
   const [specialization, setSpecialization] = useState('');
   const [emailSent, setEmailSent] = useState(false);
   const [professorName, setProfessorName] = useState('');
-  const serverUrl = 'https://viveky45.github.io/web1';
   const handleFormSubmit = async (e) => {
     e.preventDefault();
   
@@ -26,7 +25,7 @@ const App = () => {
     }
   
     try {
-      const response = await axios.post(`https://localhost:30001/allot-project`, {
+      const response = await axios.post(`http://localhost:3001/allot-project`, {
         projectName,
         specialization,
       });
