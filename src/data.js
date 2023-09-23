@@ -10,6 +10,7 @@ const specializationData = [
     'Mine Closure, Ecosystem (Carrying Capacity), Biodiversity, Rehabilitation and Resettlement',
     'Mine Surveying, Remote Sensing, and GIS',
     'Measurement, Analysis and Management of Physical Contaminants (Noise, Ultrasound, etc.) in Mines, Mine Illumination Survey and Design',
+    'Degree of gassiness, Analysis of underground mine air,Mine Fire',
     'Mine Ventilation Survey, Planning and Design/Reorganization of Ventilation System',
     'Rock Blasting Technology',
     'Equipment Planning, Performance Analysis of Mining Equipment',
